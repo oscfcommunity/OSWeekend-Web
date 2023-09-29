@@ -1,0 +1,7 @@
+frontend Tasks
+
+speaker and team detail view page navbar and footer
+speakers details view ui improve
+notification ui improve
+profile form improvement
+team and speaker and resourselibray form improve
