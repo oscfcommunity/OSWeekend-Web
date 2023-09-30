@@ -14,7 +14,7 @@ blog
 
 After doing this much run 'npm i' command in your teminal
 
-# OSW - frontnd
+# OSW - frontend
 
 Run the command 'npm i --force' in the terminal of your frontend folder
 
