@@ -1,37 +1,54 @@
-# OSW - backend
+### OSW - Backend
+1. Create a `.env` file in the main folder with the following content:
 
-Create a '.env' file in the main folder with content
+   ```
+   DBURL="_Your MongoDB Collection URL_"
+   PORT=4000
+   JWT_SEC="Open Source Weekend"
+   MAILER="your_email@gmail.com"
+   EMAILPASS="your_email_app_password"
+   OTPSEC="THIS IS SECRET"
+   ```
 
-DBURL="_Your mongodb collection Url_"
-PORT=4000
-JWT_SEC="Open Source Weekend"
-MAILER = "d**\*\***123@gmail.com"
-EMAILPASS = "\_App password form the upper user mail as mailer email from google\*"
-OTPSEC = "THIS IS SECRET"
+2. Create a folder named `uploads`. Inside this folder, create a few other folders, such as `blog`.
 
-Create a folder uploads and then init create few other folders named as
-blog
+3. After completing the above steps, run the following command in your terminal:
 
-After doing this much run 'npm i' command in your teminal
+   ```
+   npm i
+   ```
 
-# OSW - frontend
+### OSW - Frontend
+1. In your frontend folder, run the following command in your terminal:
 
-Run the command 'npm i --force' in the terminal of your frontend folder
+   ```
+   npm i --force
+   ```
 
-After that you can run the command
-npm start
-in the same terminal
+2. After the installation is complete, you can start the frontend by running:
 
-#For Chat App
-After doing this much create a '.env' file in the folder ChatApp in the path your-frontend-folder/src/components/ and write the content
+   ```
+   npm start
+   ```
 
-DBURL="_Your mongodb collection Url_"
-PORT=9000
+### For Chat App
+1. After completing the frontend setup, create a `.env` file in the `ChatApp` folder located at `your-frontend-folder/src/components/`. Write the following content:
 
-now in the the terminal of path your-frontend-folder/src/components/ChatApp
+   ```
+   DBURL="_Your MongoDB Collection URL_"
+   PORT=9000
+   ```
 
-Run the command 'npm i'
+2. In the terminal, navigate to the path `your-frontend-folder/src/components/ChatApp`.
 
-After that you can run the command
-npm start
-in the same terminal
+3. Run the following command in the terminal:
+
+   ```
+   npm i
+   ```
+
+4. After the installation, start the Chat App by running:
+
+   ```
+   npm start
+   ```
