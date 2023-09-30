@@ -1,0 +1,175 @@
+.intro-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-left: 120px;
+  margin-right: 200px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  /* flex: 1; */
+  /* padding: 10px; */
+  width: 800px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.image {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  margin-left: 100px;
+  padding-right: 0;
+}
+
+/* Optional: Style the image width to a specific size */
+.image img {
+  width: 400px;
+  height: 300px;
+}
+.heading {
+  font-family: "Open Sans", sans-serif;
+  color: #616161;
+  font-size: 230%;
+  margin-bottom: 0;
+  font-weight: 550px;
+}
+.AppName {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.intro {
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  margin-top: 0;
+}
+.box-container {
+  display: flex;
+}
+.rounded-grey-div-lg {
+  flex: 1;
+  display: inline-block;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  width: 113px;
+  height: 24px;
+  margin-right: 5px;
+}
+.rounded-grey-div-sm {
+  /* flex: 1; */
+  display: inline-block;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  width: 60px;
+  height: 24px;
+  margin-right: 5px;
+}
+.div-link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  color: #000000de;
+  padding-left: 12px;
+}
+.buttons {
+  margin-top: 20px;
+}
+.my-button {
+  background-color: #0e8388 !important;
+  border: none !important;
+  margin-right: 10px !important;
+}
+.my-button:hover, .learn-more {
+  background-color: #3b8d90 !important;
+}
+.my-button:active,
+.my-button:focus,
+.my-button:default {
+  background-color: rgb(14, 131, 136) !important;
+}
+.learn-more {
+  color: #0e8388;
+
+  /* Set the outline style with the custom color */
+  border: 2px solid #0e8388;
+
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent;
+}
+/* .my-button-2:hover {
+  border-color: #0e8388;
+  background-color: #0e838819;
+  color: #0e8388;
+} */
+.my-button-2:active,
+.my-button-2:focus {
+  border-color: #0e8388;
+  background-color: #0e838819;
+  color: #0e8388;
+}
+
+@media (max-width: 599px) {
+  .intro-container {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  .text {
+    max-width: 100%;
+    padding: 0 25px;
+  }
+  .image {
+    max-width: 100%;
+    margin-left: 0;
+    padding: 0 25px;
+    justify-items: center;
+  }
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .box-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  Button {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1023px) {
+  .intro-container {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    padding: 0 20px;
+  }
+  .image {
+    margin: 0;
+    flex: 1;
+  }
+  .box-container {
+    width: 100%;
+  }
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .text {
+    max-width: 50%;
+    flex: 2;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1263px) {
+  .intro-container {
+    width: 80%;
+    margin: 0;
+  }
+}

@@ -1,0 +1,17 @@
+.partners-card-con{
+    width: 187px;
+    height: 90px;
+    border: solid 1px #ded9d9;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.partner-img{
+  
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+}

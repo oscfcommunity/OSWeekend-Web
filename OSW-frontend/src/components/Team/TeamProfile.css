@@ -1,0 +1,229 @@
+/* Common styles for all views */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Desktop view */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.teamprofilepage {
+    background-color: #fafafa;
+}
+
+.back {
+    margin: 5vh 10vw;
+    border: 1px solid #e0e0e0;
+    padding: 3vh;
+    padding-left: 1.5vw;
+    -webkit-text-fill-color: black;
+}
+
+.back .arrow button {
+    border: 0;
+    font-size: 16.8px;
+    padding-left: 0.5vw;
+}
+
+.back .arrow button i {
+    margin-right: 0vw;
+}
+.back .arrow button:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Darken the background on hover */
+  cursor: pointer;
+}
+
+/* Adjust the arrow icon color on hover */
+.back .arrow button:hover i {
+  color: #555; /* Adjust the color on hover */
+}
+
+
+.profile {
+    margin: 5vh 10vw;
+    padding: 5vh 5vw;
+    border: 1px solid #e0e0e0;
+    display: flex;
+}
+
+.profile .memberPhoto {
+    height: 23vh;
+    border-radius: 50%;
+    background-color: inherit;
+}
+
+.memberInfo,
+.memberInfoHeading,
+.profile,
+.back,
+.back .arrow button,
+.memberInfoName,
+.memberPhotoAndOtherInfo,
+.memberInfoJob,
+.memberInfoMessage,
+.memberInfoHeading p {
+    background-color: #ffffff;
+}
+
+.memberInfoHeading {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.memberInfoName {
+    margin-top: 5vh;
+    font-size: 19.2px;
+    text-align: center;
+}
+
+.memberPhotoAndOtherInfo {
+    margin-right: 8vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mamberInfoWhichTeam {
+    background-color: #e0e0e0;
+    width: 13vh;
+    font-weight: 500;
+    /* margin-left: 1vw; */
+    border-radius: 20vh;
+    font-size: 12px;
+    padding: 0.5vh;
+    text-align: center;
+}
+
+.memberinfostatus {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 13px;
+    width: 9vh;
+    border-radius: 4px;
+    margin-left: 3.3vw;
+    padding: 0.5vh;
+}
+
+.memberInfo {
+    line-height: 20px;
+}
+
+.memberInfoMessage {
+    font-size: 17.6px;
+}
+
+.memberInfoHeading a {
+    margin-right: 0.5vw;
+    padding: 1vh 2vh;
+    font-weight: 400;
+    font-size: 12px;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    color: #000000DE;
+}
+
+/* Tablet view */
+@media screen and (min-width:769px) and (max-width: 1023px) {
+    .teamProfilepage {
+        background-color: #fafafa;
+    }
+
+    .back {
+        margin: 5vh 6vw;
+    }
+
+    .profile {
+        margin: 5vh 6vw;
+        /* width: fit-content; */
+        display: flex;
+        flex-direction: column;
+        /* Adjust for tablet layout */
+        align-items: center;
+        /* Center content in tablet view */
+    }
+
+    .memberInfo {
+        margin-top: 2vh;
+        /* Add space between photo and info */
+    }
+
+    .memberInfo {
+        margin-left: 0;
+        /* Remove margin for tablet layout */
+    }
+
+    .mamberInfoWhichTeam {
+        margin-left: 0;
+        /* Remove margin in tablet view */
+    }
+
+    .memberinfostatus {
+        margin-left: 0;
+        /* Remove margin in tablet view */
+        margin-top: 1vh;
+        /* Add space between status and team info */
+    }
+
+    .memberInfoHeading a {
+        margin-bottom: 1vh;
+        /* Add space between social links in tablet view */
+    }
+}
+
+/* Mobile view */
+@media screen and (max-width: 768px) {
+    .teamProfilepage {
+        background-color: #fafafa;
+    }
+
+    .memberInfoName,
+    .memberInfoJob,
+    .memberInfoMessage,
+    .memberInfoHeading {
+        margin-bottom: 1vh;
+    }
+    .teamprofilesociallink{
+        display: flex;
+        flex-direction:row ;
+        flex-wrap: wrap;
+    }
+    .back {
+        margin: 5vh 4vw;
+    }
+
+    .profile {
+        margin: 5vh 4vw;
+        display: flex;
+        flex-direction: column;
+        /* Adjust for mobile layout */
+        align-items: center;
+        /* Center content in mobile view */
+    }
+
+    .memberInfo {
+        margin: 0vh 6vw;
+
+        /* Add space between photo and info */
+    }
+    .mamberInfoWhichTeam {
+        margin-left: 0;
+        /* Remove margin in mobile view */
+    }
+
+    .memberinfostatus {
+        margin-left: 0;
+        /* Remove margin in mobile view */
+        margin-top: 1vh;
+        /* Add space between status and team info */
+    }
+
+    .memberInfoHeading a {
+        margin-bottom: 1vh;
+        /* Add space between social links in mobile view */
+    }
+}

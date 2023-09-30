@@ -1,0 +1,43 @@
+.secFooter{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+}
+.sf-body{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+  list-style: none;
+  width: 100%;
+}
+.sf-icons{
+    align-items: center;
+}
+.sf-link1{
+    width: calc(25%); 
+    margin-left: 8%;
+}
+.sf-link2{
+    width: calc(25%); 
+}
+.sf-link3{
+    width: calc(25%);
+
+}
+.sf-link4{
+    width: calc(25%); 
+}
+.fa-solid{
+    padding-left: 20px;
+}
+.sf-body{
+    padding-left: 10px;
+}
+@media (min-width: 960px){
+    .secFooter{
+        display: none;
+    }
+}

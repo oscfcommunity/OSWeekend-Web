@@ -1,0 +1,76 @@
+.card-con {
+  height: 144px;
+  width: 304px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0.4, 0.4, 0.4, 0.4);
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  cursor: pointer;
+  margin-right: 15px;
+  padding-top: 1vh;
+  transition: transform 0.1s ease;
+}
+.card-con:hover {
+  transform: scale(1.01);
+}
+/* ... Your existing CSS ... */
+
+.deleteevent-icon {
+  position: relative !important;
+  margin-bottom: -60px;
+  margin-left: 16vw;
+  cursor: pointer;
+  opacity: 0;
+  color: white;
+  background-color: red;
+  transition: opacity 0.2s ease;
+}
+
+.card-con:hover .deleteevent-icon {
+  opacity: 1;
+  color: white;
+  background-color: red;
+}
+
+.date {
+  padding-top: 20px;
+  font-size: 14.5px;
+  color: #000000de;
+  margin-bottom: 0;
+}
+.card-text {
+  padding-left: 15px;
+  margin-bottom: 0;
+  margin-top: -3vh;
+  height: 63%;
+}
+.card-text2 {
+  padding-left: 15px;
+  margin-bottom: 0;
+  height: 10%;
+}
+.event-name {
+  font-size: 19.3px;
+  color: #000000de;
+  margin-bottom: 0;
+}
+.mode {
+  font-size: 14.5px;
+  color: #000000de;
+  margin-bottom: 0;
+}
+.see-more {
+  font-size: 16px;
+  color: #1a73e8;
+  margin-top: 8px;
+  position: relative;
+}
+
+@media (max-width: 1023px) {
+  .card-con {
+    width: 100%;
+    /* overflow-x: scroll; */
+    padding: 0;
+  }
+}

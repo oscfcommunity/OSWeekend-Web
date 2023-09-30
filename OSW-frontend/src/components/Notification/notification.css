@@ -1,0 +1,69 @@
+/* notification.css */
+
+.notification-box {
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+}
+
+/* Modify the styles for the "Allow Permission" button */
+.btn1 {
+    margin: 10px;
+    color: #007bff;
+    background-color: white;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+    /* Smooth background color transition */
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+/* Apply subtle hover effect for "Allow Permission" button */
+.btn1:hover {
+    background-color: #007bff15;
+    /* Slightly darker blue on hover */
+}
+
+/* Modify the styles for the "Close" button */
+.btn2 {
+    color: #EF4765;
+    /* Red background color */
+    border: 0;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+    /* Smooth background color transition */
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+/* Apply subtle hover effect for "Close" button */
+.btn2:hover {
+    background-color: #ef476615;
+    /* Slightly darker red on hover */
+}

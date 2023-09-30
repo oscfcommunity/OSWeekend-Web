@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat app</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <section class="chat__section">
+        <div class="brand">
+            <!-- <i class="fa-brands fa-rocketchat fa-3x" style="color: #084a3d;padding-right:8px"></i> -->
+            <!-- <img  src="/OSW FINAL(1).png" alt="" style="width: 100px;height:100px"><br> -->
+            <!-- <h3><span id="username"></span></h3> -->
+            <h1></h1>
+
+            <div id="container">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search..." name="search" class="searchbar">
+
+                </div>
+            </div>
+        </div>
+        <div class="message__area"></div>
+        <div id="reply-container" class="reply-container">
+            <div id="reply-message" class="reply-message" class="bold-text">
+                <span id="replying-to-text"></span>
+            </div>
+            <div class="reply-input">
+                <textarea id="reply-textarea" placeholder="Type your reply here..."
+                    style="white-space: pre; overflow-x: hidden;"></textarea>
+                <button id="close-reply" class="close-reply">X</button>
+            </div>
+            <button id="send-reply" class="send-reply" onclick="sendReply()">Send</button>
+        </div>
+        <div class="input-container">
+
+            <textarea class="text__area" style="white-space: pre; overflow-x: hidden;" id="textarea" cols="30" rows="1"
+                placeholder="Write a message..." contenteditable></textarea>
+            <!-- <button><input type="file" id="fileInput" multiple></button> -->
+            <div class="input__icon">
+                <input type="file" id="fileInput" style="display: none;">
+                <button id="fileButton" class="input__icon">
+                    <i class="fa-solid fa-paperclip"></i>
+                </button>
+                <button id="sendMessageButton" class="input__button">
+                    <i class="fa-solid fa-paper-plane fa-2x"></i>
+                </button>
+            </div>
+
+        </div>
+        <!-- <div id="context-menu" class="context-menu">
+            <ul>
+                <li id="context-reply" onclick="openReplyInterface()">Reply</li> 
+                <li id="context-report" onclick="reportChat()">Report</li>
+            </ul>
+        </div> -->
+        <div id="context-menu" class="custom-context-menu">
+            <ul>
+                <li id="context-reply">Reply</li>
+                <li id="context-report">Report</li>
+            </ul>
+        </div>
+
+
+        <div id="context-menu" class="custom-context-menu">
+            <ul>
+                <li class="unreport">Unreport</li>
+            </ul>
+
+        </div>
+
+    </section>
+
+</body>
+<script src="/socket.io/socket.io.js" nomap></script>
+<script src="./client.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js"
+    integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc"
+    crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js"
+    integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO"
+    crossorigin="anonymous"></script>
+<script>
+    // Get the username from the query parameter
+    // Display the username on the page
+    const usernameElement = document.getElementById('username');
+    usernameElement.textContent = user;
+    showChatInterface();
+</script>
+
+</html>

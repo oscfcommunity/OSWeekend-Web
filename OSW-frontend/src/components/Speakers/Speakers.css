@@ -1,0 +1,64 @@
+/* Common styles for all views */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.speakersheader {
+    margin: 2vh 10vw;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 230%;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.speakerstext {
+    color: #1A73E8;
+}
+
+.SpeakersTile {
+    display: flex;
+    margin: 5vh 0vw 6vh 9vw;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+    .speakersheader {
+        margin: 2vh 2vw;
+        font-size: 28px; 
+    }
+
+    .SpeakersTile {
+        display: flex;
+        margin: 5vh 2vw 6vh 2vw;
+        flex-direction: row;
+        justify-content: center; 
+        align-items: center; 
+        flex-wrap: wrap;
+    }
+
+    .speaker {
+        margin: 2vh 0;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width:1200px) {
+    .speakersheader {
+        margin: 2vh 10vw;
+        font-size: 32px;
+    }
+
+    .SpeakersTile {
+        margin: 5vh 0vw 6vh 9vw;
+        display: flex;
+        flex-direction: row; 
+        margin-top: 20px;
+    }
+
+    .speaker {
+        margin: 0 2vw; 
+    }
+}

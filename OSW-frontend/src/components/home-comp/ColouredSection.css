@@ -1,0 +1,64 @@
+.about-text {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  text-align: left;
+  padding: 40px 150px;
+}
+p {
+  text-align: left;
+}
+.containercss {
+  background-color: #0e8388;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 30px;
+  width: 1520px;
+}
+.about-title {
+  font-size: 28px;
+  font-weight: 300px;
+  text-align: left;
+}
+.colored-button {
+  color: #ffffff !important;
+
+  /* Set the outline style with the custom color */
+  border: 2px solid #ffffff !important;
+
+  font-size: 16px !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+  background-color: #0e8388 !important;
+  margin-bottom: 10px !important;
+  margin-top: 20px !important;
+}
+.colored-button:hover {
+  border-color: #ffffff !important;
+  background-color: #b1f4f519 !important;
+  color: #ffffff !important;
+}
+@media (max-width: 767px) {
+  .containercss {
+    max-width: 100%;
+  }
+  .about-text {
+    padding: 40px 20px;
+    text-align: left;
+  }
+  p {
+    text-align: left;
+  }
+}
+@media (min-width: 768px) and (max-width: 1263px) {
+  .containercss {
+    max-width: 100%;
+  }
+  .about-text {
+    padding: 50px 20px;
+  }
+}
+@media (min-width: 1264px) {
+  .containercss {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,11 @@
+.wrapper{
+    min-height: 200vh;
+    display: flex;
+    flex-direction: column;
+}
+.app-container{
+    flex: 0;
+}
+.footer{
+    flex-shrink: 0;
+}

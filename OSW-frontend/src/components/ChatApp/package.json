@@ -1,0 +1,27 @@
+{
+  "name": "wassup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "serve": "node server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "db": "^4.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.4.2",
+    "node-localstorage": "^3.0.5",
+    "socket.io": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/socket.io": "^3.0.2",
+    "nodemon": "^2.0.3"
+  }
+}

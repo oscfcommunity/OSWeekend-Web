@@ -1,0 +1,129 @@
+/* BlogPage.css */
+
+.blog-card-page {
+    font-family: Arial, sans-serif;
+    padding: 20px 100px;
+    margin: 0px 20px;
+}
+
+.top_section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 400px;
+    /* Adjust this value to your preferred height */
+    background-color: #c9c9c92d;
+    z-index: -1;
+}
+
+.blog-header {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.blog-intro {
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.blog-cards {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog-card {
+    background-color: white;
+    border: 1px solid #ded9d9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* .blog-card:hover {
+    scale: 1.1;
+    transition: 0.6s ease-in-out;
+} */
+
+/* .blog-card:focus {
+    outline: none;
+    border-color: #1e3446;
+    box-shadow: 0 0 10px #0d1e2c;
+    width: 180px;
+} */
+
+.blog-card img {
+    /* max-width: 50%; */
+    height: 50%;
+    max-width: 70%;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+
+.blog-card h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    height: 25%;
+}
+
+.blog-card a {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.blog-card a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+    .blog-card {
+        margin: 10px auto;
+    }
+
+    .blog-card-page {
+        padding: 20px 15px;
+    }
+
+}
+
+h1 {
+    color: #176b87;
+    font-weight: bold;
+}
+
+.read_more {
+    /* background-color: #3498db; */
+    /* height: 50%; */
+    /* width: 100px; */
+    /* font-size: 16px; */
+    background-color: white;
+    color: #3498db;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+    position: relative;
+}
+
+
+.read_more:hover {
+    color: #176b87;
+    background-color: ghostwhite;
+    /* outline: 1px solid black; */
+    transform: scale(1.05);
+}
+
+.blog-card.fade-in {
+    opacity: 0;
+    animation: none;
+    transform: translateY(20px);
+}

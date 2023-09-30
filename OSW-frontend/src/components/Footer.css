@@ -1,0 +1,155 @@
+
+.footer2 {
+    font-size: 17.6px;
+    margin: 4vh 0px;
+}
+
+.footer2Left {
+    font-family: Roboto, sans-serif;
+    margin-left: 150px;
+}
+
+.footer2LeftLeft {
+    color: #2196f3;
+}
+.appName{
+    font-size: 25px;
+}
+.follow {
+    border-top: 1px solid #0000001f;
+    border-bottom: 1px solid #0000001f;
+    margin: 0vh 0px;
+    padding: 2.5vh 0vw;
+}
+.resources{
+    margin: 0vh 150px;
+}
+.developerConsole{
+    margin-right: 150px;
+}
+.footer1{
+    display: flex;
+    padding: 2vh 0vw;
+    border-bottom: 1px solid #0000001f;
+    text-align: left;
+    flex-shrink: 0;
+}
+.aboutText,
+.resourcesText,
+.developerConsoleText,
+.openSourceWeekendText {
+    line-height: 1.7;
+}
+
+.aboutHeading,
+.resourcesHeading,
+.developerConsoleHeading,
+.openSourceWeekendHeading {
+    color: #000000DE;
+    font-size: 22.4px;
+}
+
+a {
+    color: #3e4551;
+    text-decoration: none
+}
+
+.follow1 {
+    font-size: 130%;
+    line-height: 1.5;
+}
+.footer-con{
+    text-align: left;
+}
+.footer-head{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+}
+@media (max-width: 767px) {
+footer{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.follow{
+    margin: 0 20px;
+    
+}
+.footer1{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+.resources{
+    margin: 0;
+}
+.footer2{
+    margin: 0 20px;
+}
+.pair-1{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.pair-2{
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.resources{
+    margin-right: 10%;
+}
+.developerConsole{
+    margin: 0;
+    padding-right: 10%;
+    padding-top: 20px;
+}
+.about{
+    padding-right: 10px;
+}
+.foot-pair-2{
+    display: flex;
+}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .image{
+      padding:0 25px;
+    }
+    .footer-con{
+        margin-left: 20px;
+    }
+    .footer1{
+        margin-left: 20px;
+    }
+    .follow{
+        margin-left: 20px;
+    }
+    footer{
+        margin-bottom: 100px;
+    }
+    .footer2{
+        margin: 20px;
+    }
+  }
+  @media (min-width: 1024px) and (max-width: 1264px) {
+    .containercss{
+        max-width: 100%;
+    }
+    .follow{
+        margin: 0 20px;
+    }
+    .footer1{
+        margin: 0 20px;
+    }
+    .footer2{
+        margin: 22px 20px;
+    }
+    Footer{
+        margin: 50px 150px;
+    }
+  }
+  @media (min-width: 1264px){
+    Footer{
+        margin: 50px 150px;
+    }
+  }

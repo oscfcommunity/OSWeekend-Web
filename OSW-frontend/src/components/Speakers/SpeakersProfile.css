@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.speakerspPage {
+  max-width: 80%;
+}
+
+.SpeakersProfile {
+  margin: 5vh 5vw 5vh 10vw;
+}
+
+.speakerspPage {
+  display: flex;
+}
+
+.info {
+  align-content: center;
+  padding: 3vh 3vw;
+  padding-top: 0;
+}
+
+.bio {
+  width: 39vh;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px 0px #7c7c7c;
+}
+
+.avatar {
+  height: 12vh;
+  border: none;
+  display: flex;
+  border-top-left-radius: 1vh;
+  border-top-right-radius: 1vh;
+  background-color: #331495;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+}
+
+.avatar img {
+  height: 20vh;
+  margin-top: 4.3vh;
+  border: 5px solid white;
+  width: 39%;
+
+  border-radius: 100%;
+}
+
+.infotext {
+  margin-top: 9vh;
+  text-align: center;
+}
+
+.job {
+  margin-top: -20px;
+  color: #00000099;
+  font-size: 14px;
+  margin-left: 34%;
+}
+
+.community {
+  margin-top: -17px;
+  color: #424242;
+  font-size: 15px;
+  margin-left: 32%;
+}
+
+.address {
+  margin-top: -7px;
+  color: #00000099;
+  font-size: 14px;
+  margin-left: 27%;
+}
+
+.name {
+  font-size: 150%;
+  color: rgb(66, 66, 66);
+  margin-left: 19%;
+}
+
+.fa {
+  padding: 0 10px 0 10px;
+}
+
+.sessions {
+  border: 1px solid rgb(231, 231, 231);
+  margin-top: 5vh;
+  margin-left: 25px;
+  border-radius: 5px;
+  padding: 2vh;
+  height: fit-content;
+  width: 70%;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 5vh;
+}
+
+.sessionbodymain {
+  display: flex;
+  flex-wrap: wrap;
+  width: 120vh;
+}
+
+.sessionbody {
+  display: flex;
+  margin-right: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 350px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  border-color: gray;
+}
+.sessionbody {
+    align-items: center;
+    padding: 20px 100px;
+    margin-bottom: 10%;
+    background-color: #fff; /* Initial background color */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    border-radius: 10px; /* Optional: rounded corners */
+
+    &:hover {
+      background-color: #e0e0e0; /* Darken the background on hover */
+    }
+}
+.sessionAvatar {
+  background-color: #e0e0e0;
+  border-radius: 50px;
+  padding: 10px 16px;
+  margin-right: 50px;
+}
+
+.aboutspeaker {
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px 0px #7c7c7c;
+  padding: 2vh 1vw 3vw;
+  max-width: 39vh;
+  font-size: 13px;
+  line-height: 1.7em;
+  margin-top: 5vh;
+  color: #00000099;
+}
+
+.info .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vw;
+  }
+.aboutspeakertitle {
+  padding-bottom: 1vh;
+}
+
+.SpeakersProfile {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .speakerspPage {
+    display: block;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .SpeakersProfile {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .avatar {
+    left: 39%;
+  }
+
+  .avatar img {
+    height: 20vh;
+    margin: 0;
+    border-radius: 50%;
+  }
+
+  .info .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bio {
+    width: 100%;
+    border: none;
+    border-radius: 0%;
+    box-shadow: none;
+  }
+
+  .biobackgroundimg {
+    background-position: top right;
+    padding-top: 8%;
+    border-radius: 0;
+    background-color: #331495;
+  }
+
+  .aboutspeakertitle {
+    display: none;
+  }
+
+  .SpeakersProfilePage {
+    flex-direction: column;
+  }
+
+  .aboutspeaker {
+    margin: 1vh;
+    max-width: 100%;
+    box-shadow: none;
+    border: none;
+    font-size: 100%;
+  }
+
+  .sessions {
+    display: block;
+    margin: 0vh 1vw;
+    line-height: 5vh;
+    border: none;
+    box-shadow: none;
+  }
+
+  .sessionbody {
+    display: flex;
+    margin-bottom: 6vh;
+    flex-direction: row;
+  }
+
+  .sessionbodymain {
+    width: auto;
+    line-height: 1.5em;
+    display: flex;
+    margin-bottom: 5vh;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 4vw;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  div.sessions {
+  }
+
+  .sessionAvatar {
+    margin-bottom: 7vh;
+  }
+
+  .SpeakersProfile {
+    margin: 5vh 5vw;
+  }
+
+  .aboutspeaker {
+    max-width: 41vh;
+  }
+
+  .sessionbody {
+    display: flex;
+    margin-right: auto;
+    flex-direction: row;
+    align-items: baseline;
+  }
+}

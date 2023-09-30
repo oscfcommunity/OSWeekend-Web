@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.teamheadertitle {
+  padding: 5vh 10vw 0vw 10vw;
+  font-family: "Open Sans", sans-serif;
+  font-size: 230%;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.teamheader {
+  background-color: #f5f5f5;
+}
+
+.our {
+  color: #1a73e8;
+}
+
+.headertext {
+  padding: 0vh 10vw 10vh 10vw;
+}
+
+.TeamTile {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  margin: 6vh 0vw 0vh 10vw;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.orgTeamMem {
+  margin: 6vh 0vw 6vh 10vw;
+}
+
+.orgTeamMembutton {
+  display: flex;
+  line-height: 0.5vh;
+  padding: 2vh;
+  background-color: white;
+  border: none;
+}
+
+.orgTeamMemImg img {
+  height: 50px;
+  margin-right: 1vw;
+}
+
+.orgTeamMemInfo p {
+  text-align: left;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .teamheadertitle {
+    padding: 10vh 5vw 0vw 5vw;
+    font-size: 28px;
+  }
+
+  .headertext {
+    padding: 0vh 6vw 10vh 6vw;
+  }
+
+  .TeamTile {
+    margin: 6vh 0vw 0vh 0vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .TeamTile .team-member {
+    margin-bottom: 4vh;
+  }
+
+  .orgTeamMemImg img {
+    margin-right: 5vw;
+  }
+}

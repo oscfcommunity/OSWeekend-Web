@@ -1,0 +1,265 @@
+.outer-div{
+  display: flex;
+    border: 1px solid #DDDDDD; /* Black outline */
+  background-color: #F7F7F7;
+  /* padding-left: 100px; */
+  margin-top: 20px;
+  margin-left: 135px;
+  margin-right: 135px;
+ max-width: 100%;
+ border-radius: 5px;
+ max-width: 100%;
+ padding-right: 20px;
+ /* width: 1350px; */
+}
+.first{
+  flex: 0;
+  flex-direction: column;
+  width: 320px;
+}
+.title{
+  flex: 1;
+  font-family: 'Open Sans', sans-serif;
+  /* text-align: left; */
+  font-size: 150%;
+  padding-top: 30px;
+  padding-left: 20px;
+  text-align: left;
+}
+.pairs{
+  display: flex;
+  padding-right: 20px;
+}
+.pair-1{
+  display: flex;
+}
+.pair-2{
+  display: flex;
+}
+.intro-text{
+  /* font-family: 'Open Sans', sans-serif; */
+  flex: 0;
+  text-align: left;
+  padding-left: 20px;
+  width: 300px;
+}
+.intro-text-1{
+  flex: 0;
+  text-align: left;
+  padding-left: 20px;
+  width: 300px;
+  margin-top: 20px;
+}
+.images1{
+  flex: 1;
+  height: 45px;
+  width: 35px;
+  padding-bottom: 10px;
+}
+.images2{
+  flex: 1;
+  height: 40px;
+  width: 40px;
+  padding-bottom: 10px;
+}
+.images3{
+  flex: 1;
+  height: 43px;
+  width: 30px;
+  padding-bottom: 10px;
+}
+.images4{
+  flex: 1;
+  height: 40px;
+  width: 32px;
+  padding-bottom: 10px;
+}
+.images5{
+  flex: 1;
+  height: 40px;
+  width: 35px;
+  padding-bottom: 10px;
+}
+.images6{
+  flex: 1;
+  height: 43px;
+  width: 35px;
+  padding-bottom: 10px;
+  float: left;
+}
+.a-link{
+  width: 35px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding-right: 0;
+}
+.tech-img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20px;
+}
+.row-1{
+  padding: 0;
+  margin: 0;
+  width: 30px;
+}
+.row-2{
+  overflow: hidden;
+  padding-left: 30px;
+}
+.second{
+  flex-direction: column;
+  flex: 1;
+  padding: 50px 15px;
+  width: 200px;
+}
+.fontaw{
+  flex: 0;
+  text-align: center;
+}
+.what-text{
+  flex: 1;
+  margin-top: 10px;
+  font-size: 21px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+.what-text-2{
+  flex: 1;
+  margin-top: 10px;
+  font-weight: 50px;
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+  /* padding: 0 15px; */
+}
+.third{
+  flex: 1;
+  flex-direction: column;
+  /* flex: 2; */
+  /* padding-top: 50px; */
+  padding: 50px 15px;
+  width: 270px;
+  
+}
+
+.fourth{
+  flex: 1;
+  flex-direction: column;
+  /* flex: 2; */
+  padding: 50px 15px;
+  width: 250px;
+}
+
+.fifth{
+  flex: 1; 
+  padding: 50px 15px;
+  width: 220px;
+
+}
+.text{
+  font-family: 'Open Sans', sans-serif; 
+}
+p{
+  text-align: center;
+}
+
+@media (max-width: 599px) {
+  .outer-div{
+    flex-direction: column;
+      max-width: 100%;
+      margin: 0;
+      padding: 0; 
+  }
+  .first{
+    width: 100%;
+  }
+  .intro-text{
+    margin: 0;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .second,.third{
+    margin: auto;
+    padding: 20px 15px;
+  /* width: 50%; */
+  }
+  .fourth,.fifth{
+    margin: auto;
+    padding: 20px 15px;
+  /* width: 50%; */
+  }
+  .what-text-2{
+    max-width: 100%;
+  }
+  .pairs{
+    display: flex;
+    flex-direction: column;
+  }
+  .pair-1{
+    display: flex;
+    flex-direction: row;
+  }
+  .pair-2{
+    display: flex;
+    flex-direction: row;
+  }
+  .tech-img{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .row1{
+    width: 60%;
+  }
+  .row-2{
+    padding-left: 0;
+  }
+}
+@media (min-width: 600px) and (max-width: 1264px) {
+  .outer-div{
+    max-width: 100%;
+    margin: 0 20px;
+    padding: 0;
+    display: flex;
+  }
+  .first{
+    flex: 1;
+    max-width: 35%;
+    margin-right: 20px;
+    justify-content: center;
+  }
+  .first p, a{
+    max-width: 100%;
+  }
+  .row1{
+    max-width: 80%;
+    flex-direction: row;
+  }
+  .pairs{
+    flex: 2;
+    flex-direction: column;
+    max-width: 60%;
+  }
+  .image{
+    width: 100%;
+  }
+.second,.third,.fourth,.fifth{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.tech-img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+}
+@media (min-width: 1264px){
+  .second,.third,.fourth,.fifth{
+    width: 25%;
+  }
+}

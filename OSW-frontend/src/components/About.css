@@ -1,0 +1,270 @@
+/* general code of whole page */
+* {
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  .header {
+    display: block;
+  
+  }
+  
+  .justify-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .align-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  /* Header of this Page */
+  .aboutheader {
+    padding: 5vh 8vw;
+  }
+  .aboutHeading{
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+  }
+  .About {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+    margin-bottom: 0;
+    font-weight: 700;
+    /* text-align: left; */
+  }
+  
+  .parentForImgAndText {
+    display: flex;
+  }
+  
+  .headerImg {
+    flex: 1;
+    height: 300px;
+    /* width: 1203px; */
+  }
+  
+  
+  .becomeMember {
+    background-color: #0E8388;
+    border: 0;
+    border-radius: 5px;
+    padding: 0.5vw;
+  }
+  
+  .becomeMember a {
+    color: white;
+    text-decoration: none;
+  }
+  .becomeMember:hover{
+    background-color: rgb(14, 131, 136 ,0.8);
+  }
+  
+  .learnMore {
+    background-color: white;
+    border-color: #0E8388;
+    border: 2px solid #0E8388;
+    box-shadow: none;
+    border-radius: 5px;
+    padding: 0.6vh 0.5vw;
+    margin-left: 1vw;
+  }
+  
+  .learnMore a {
+    color: #0E8388;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  .learnMore:hover{
+    background-color: rgb(14, 131, 136, 0.1);
+  }
+  
+  /* Community Guidline Accordion */
+  .communityguidlinesparent {
+    display: flex;
+    background-color: #f5f5f5;
+    padding: 3vw 10vw;
+  }
+  
+  .communityguidliness {
+    flex: 1;
+  }
+  
+  #accordionExample {
+    width: 55vw;
+  }
+  
+  .communityguidlinessimg {
+    flex: 2;
+    margin-left: 10vw;
+    margin-top: 20%;
+    height: 200px;
+  }
+  
+  h2 {
+    color: #000000DE;
+  }
+  
+
+  
+  /* code of conduct,AntiHarassment Policy */
+  .aboutdesc {
+    margin-left: 10vw;
+    margin-right: 32vw;
+    margin-top: 5vh;
+    text-align: justify;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .contact {
+      color: #1A73E8;
+      font-weight: bolder;
+      font-size: 200%;
+    }
+  
+    .parentForImgAndText {
+      display: block;
+    }
+  
+    img.headerImg {
+      width: 70%;
+      height: auto;
+      margin-left: 12vw;
+    }
+  
+    p.headerImgText.mb-1 {
+      width: 100% !important;
+    }
+  
+    .becomeMember {
+      padding: 1.1vh 2vw;
+    }
+  
+    .becomeMember a {
+      color: white;
+      padding-top: 3vh;
+      padding-bottom: 3vh;
+    }
+  
+    .learnMore {
+      background-color: white;
+      border: 2px solid #0E8388;
+      box-shadow: none;
+      border-radius: 5px;
+      padding: 1.1vh 5vw;
+      margin-left: 1vw;
+    }
+  
+    .aboutdesc {
+      margin: 0vh 5vw;
+      margin-top: 5vh;
+      text-align: left;
+    }
+  
+    .mx-2 {
+      font-weight: 500;
+    }
+  
+    .codcodeOfConductText {
+      font-size: 30px;
+    }
+  
+    .antiHarassmentPolicyText {
+      font-size: 30px;
+    }
+  
+    .communityguidlinesparent {
+      display: block;
+      background-color: #f5f5f5;
+      padding: 5vw 3vw;
+      margin: 0px 0px;
+      width: 100vw !important;
+    }
+  
+    .communityguidlinessimg {
+      display: none;
+    }
+  
+    #accordionExample {
+      width: auto;
+    }
+  
+    .communityguidlinessText {
+      font-size: 30px;
+    }
+  }
+  
+  @media (min-width:769px) and (max-width: 1200px) {
+    .About {
+      color: #1A73E8;
+      font-weight: bolder;
+    }
+  
+    .aboutheader {
+      padding: 2vh;
+    }
+  
+    .parentForImgAndText {
+      width: 100%;
+    }
+  
+    .becomeMember {
+      padding: 1.1vh 2vw;
+    }
+  
+    .becomeMember a {
+      color: white;
+      padding-top: 3vh;
+      padding-bottom: 3vh;
+    }
+  
+    .learnMore {
+      background-color: white;
+      border: 2px solid #0E8388;
+      box-shadow: none;
+      border-radius: 5px;
+      padding: 1.1vh 5vw;
+      margin-left: 1vw;
+    }
+  
+    .communityguidlinesparent {
+      background-color: #f5f5f5;
+      padding: 5vw 3vw;
+      margin: 0px 0px;
+    }
+    .communityguidlinessimg{
+      margin-top: 20%;
+    }
+    .communityguidlinessText {
+      font-size: 30px;
+    }
+    .aboutdesc {
+      margin: 0vh 6vw;
+      margin-top: 5vh;
+      text-align: left;
+    }
+  
+    .mx-2 {
+      font-weight: 500;
+    }
+  
+    .codcodeOfConductText {
+      font-size: 30px;
+    }
+  
+    .antiHarassmentPolicyText {
+      font-size: 30px;
+    }
+  
+    #accordionExample {
+      width: auto;
+    }
+  
+  
+  }

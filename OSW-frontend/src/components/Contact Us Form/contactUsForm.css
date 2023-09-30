@@ -1,0 +1,104 @@
+/* Add your custom styles here */
+
+/* General styling for all screen sizes */
+.mb-4 {
+    margin-bottom: 1.5rem;
+    margin: auto 150px;
+}
+
+.h1-responsive {
+    color: #008080;
+}
+
+.h1-responsive {
+    font-size: 2.5rem;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.my-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+label {
+    font-size: 1rem;
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.status {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.fa-2x {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+ul.list-unstyled li {
+    margin-bottom: 1rem;
+}
+
+/* Media Query for tablet screens */
+@media (max-width: 768px) {
+    .col-md-9 {
+        order: 2;
+    }
+
+    .col-md-3 {
+        order: 1;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Media Query for mobile screens */
+@media (max-width: 576px) {
+    .col-md-9 {
+        order: 1;
+    }
+
+    .col-md-3 {
+        order: 2;
+        margin-top: 1.5rem;
+    }
+}

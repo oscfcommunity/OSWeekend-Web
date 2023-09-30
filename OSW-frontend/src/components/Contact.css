@@ -1,0 +1,86 @@
+/* src/components/ContactUs.css */
+.contact-container {
+  margin: 0 100px;
+  padding: 20px;
+  display: flex;
+}
+
+.contact-container h1 {
+  font-size: 1.5rem;
+  margin-right: 39vw;
+  margin-left: -1vw;
+  margin-bottom: 10px;
+}
+
+.contact-container p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.contact-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Style your social media icons as needed */
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.hash {
+  margin: 5px;
+  background-color: #176b87 !important;
+  color: black;
+}
+
+.side {
+  justify-content: space-between;
+}
+
+.side1 {
+  width: 60%;
+}
+
+.side2 {
+  padding-left: 10%;
+}
+
+@media only screen and (max-width: 800px) {
+  .sideImg {
+    display: none;
+  }
+
+  .side1 {
+    width: 100%;
+  }
+
+  .side2 {
+    display: none;
+  }
+
+  .contact-container {
+    margin: 10px;
+  }
+}
+
+#disc {
+  text-align: justify;
+}
+
+#head {
+  font-size: 2em;
+}

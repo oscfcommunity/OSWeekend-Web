@@ -1,0 +1,65 @@
+/* Common styles for all views */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Desktop view */
+* {
+  margin: 0;
+  padding: 0;
+}
+.projectprofile {
+  margin: 5vh 10vw;
+  padding: 5vh 5vw;
+  border: 1px rgb(255, 255, 255) solid;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+.projecttags {
+  width: 13vh;
+  font-weight: 500;
+  margin-left: 2.4vw;
+  padding: 0.5vh;
+}
+
+.projectprofilename {
+  margin-top: 5vh;
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .projectprofile {
+    margin: 5vh 6vw;
+    /* width: fit-content; */
+    display: flex;
+    flex-direction: row;
+    /* Adjust for tablet layout */
+    align-items: center;
+    /* Center content in tablet view */
+  }
+
+  .projectprofiletags {
+    margin-left: 0;
+    /* Remove margin in tablet view */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projectprofile {
+    margin: 5vh 4vw;
+    display: flex;
+    flex-direction: column;
+    /* Adjust for mobile layout */
+    align-items: center;
+    /* Center content in mobile view */
+  }
+
+  .projectprofilename,
+  .projectprofiledesc {
+    margin-bottom: 1vh;
+  }
+
+  .projectprofiletags {
+    margin-left: 0;
+    /* Remove margin in mobile view */
+  }
+}

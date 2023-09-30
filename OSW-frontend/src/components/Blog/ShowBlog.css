@@ -1,0 +1,49 @@
+/* CSS for the main container */
+.bg-container {
+  background-image: url('/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* CSS for the box container */
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 95vw;
+  height: 80vh;
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 2px;
+  padding: 4px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.76);
+  backdrop-filter: auto;
+  backdrop-blur: 8px;
+  overflow-x: scroll;
+}
+
+/* CSS for the heading */
+.heading {
+  margin-bottom: 4px;
+}
+
+/* CSS for the back button */
+.back-button {
+  background-color: white;
+  color: skyblue;
+  border: none;
+  padding: 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.back-button:hover {
+  box-shadow: 0px 4px 6px skyblue;
+}
+
+.back-button:active {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
