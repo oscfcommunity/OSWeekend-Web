@@ -76,7 +76,7 @@ const Events = () => {
         console.log(error.message);
       }
     };
-    if (user._id && user._id !== "") {
+    if (user?._id && user?._id !== "") {
       fetchUserProfile();
     }
   }, [user]);
