@@ -122,6 +122,7 @@ function ContactForm() {
                     className="form-control"
                     value={formData.email}
                     onChange={handleChange}
+                    required
                   />
                 </div>
               </div>
@@ -140,7 +141,7 @@ function ContactForm() {
                     className="form-control"
                     value={formData.subject}
                     onChange={handleChange}
-                    required={true}
+                    required
                   />
                 </div>
               </div>
@@ -158,6 +159,8 @@ function ContactForm() {
                     className="form-control md-textarea"
                     value={formData.message}
                     onChange={handleChange}
+                    required
+                    minLength="10"
                   ></textarea>
                 </div>
               </div>
