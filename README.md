@@ -1,6 +1,6 @@
 # Open Source Weekend (OSW)
 
-Welcome to the [Open Source Weekend (OSW)](https://github.com/oscfcommunity/OSWeekend) repository! OSW is a community-driven initiative aimed at promoting and celebrating open-source technologies on a regular basis. Our goal is to create a platform for knowledge sharing, collaboration, and exploration of various open-source projects.
+Welcome to the [Open Source Weekend (OSW)](https://github.com/oscfcommunity/OSWeekend) repository! OSW represents a dynamic community endeavor with a core mission to consistently champion and honor open-source technologies. Our overarching objective is to establish a vibrant platform fostering the exchange of knowledge, fostering collaborative efforts, and nurturing the exploration of diverse open-source projects.
 
 This is an initiative by [Open Source Community Foundation (OSCF)](https://github.com/oscfcommunity)! 
 
