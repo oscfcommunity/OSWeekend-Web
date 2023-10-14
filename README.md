@@ -1,3 +1,9 @@
+# Open Source Weekend (OSW)
+
+Welcome to the [Open Source Weekend (OSW)](https://github.com/oscfcommunity/OSWeekend) repository! OSW is a community-driven initiative aimed at promoting and celebrating open-source technologies on a regular basis. Our goal is to create a platform for knowledge sharing, collaboration, and exploration of various open-source projects.
+
+This is an initiative by [Open Source Community Foundation (OSCF)](https://github.com/oscfcommunity)! 
+
 ### OSW - Backend
 1. Create a `.env` file in the main folder with the following content:
 
