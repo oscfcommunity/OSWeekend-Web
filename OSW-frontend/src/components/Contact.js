@@ -8,11 +8,13 @@ import sideImg from "../img/contact.svg";
 // import TwitterIcon from "@mui/icons-material/Twitter";
 // import InstagramIcon from "@mui/icons-material/Instagram";
 import SecFooter from "./SecFooter";
+import ContactForm from "./Contact Us Form/contactUsForm";
 
 function Contact() {
   return (
     <>
       <Navbar />
+      <ContactForm />
       <div className="contact-container">
         <div className="side1 side">
         <p style={{fontSize: "38px", fontWeight: "600", fontFamily: '"Open Sans", sans-serif;'}}>
